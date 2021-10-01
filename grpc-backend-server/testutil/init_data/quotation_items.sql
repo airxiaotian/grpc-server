@@ -1,0 +1,2 @@
+INSERT INTO quotation_items (`version_number`,`quotation_details_id`,`product_name`,`order_quantity`,`order_price`,`order_details_id`)VALUES ('1', '1', 'productName1', '1', '1', '1');
+INSERT INTO quotation_items (`version_number`,`quotation_details_id`,`product_name`,`order_quantity`,`order_price`,`order_details_id`)VALUES ('2', '2', 'productName2', '2', '2', '2');

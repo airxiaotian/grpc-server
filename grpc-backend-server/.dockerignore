@@ -1,0 +1,9 @@
+.idea/
+schema/
+vendor/
+
+.gitignore
+*.iml
+*.proto
+*.sh
+doc/

@@ -1,0 +1,3 @@
+INSERT INTO quotation_details(`quotations_id`,`version_number`,`order_details_id`,`product_name`,`specifications`,`order_quantity`,`order_price`,`unit_classification`) VALUES(1,null,null,"Product Name1",null,10,100,10);
+INSERT INTO quotation_details(`quotations_id`,`version_number`,`order_details_id`,`product_name`,`specifications`,`order_quantity`,`order_price`,`unit_classification`) VALUES(1,1,1,"Product Name2","specifications",20,200,10);
+INSERT INTO quotation_details(`quotations_id`,`version_number`,`order_details_id`,`product_name`,`specifications`,`order_quantity`,`order_price`,`unit_classification`) VALUES(6,1,1,"Product Name2","specifications",20,200,10);

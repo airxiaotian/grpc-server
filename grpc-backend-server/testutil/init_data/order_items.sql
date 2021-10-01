@@ -1,0 +1,3 @@
+INSERT INTO `order_items` (`id`, `orders_id`, `order_details_id`, `product_name`, `order_quantity`, `order_price`, `order_details_no`) VALUES ('1', '103', '102', 'TestProductName_1', '105', '104', NULL);
+INSERT INTO `order_items` (`id`, `orders_id`, `order_details_id`, `product_name`, `order_quantity`, `order_price`, `order_details_no`) VALUES ('2', '203', '202', 'TestProductName_2', '205', '204', '211');
+INSERT INTO `order_items` (`id`, `orders_id`, `order_details_id`, `product_name`, `order_quantity`, `order_price`, `order_details_no`) VALUES ('3', '303', '302', 'TestProductName_3', '305', '304', '311');

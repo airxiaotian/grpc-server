@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package com.grpc.test.v1;
+
+option go_package = "grpc/test";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+
+service Order {
+
+  /**
+   * 発注見出し一覧取得
+   */
+  rpc ListOrders(ListOrdersRequest) returns (OrdersResponse) {}
+}
+
+message OrderResponse {
+  google.protobuf.Int32Value id = 1;         
+  string order_name = 2;                         
+  google.protobuf.Timestamp superior_approval_date = 3; 
+
+}
+
+message OrdersResponse {
+  repeated OrderResponse response = 1;
+}
+
+message ListOrdersRequest {
+  repeated int32 ids = 1;                      //発注見出しID
+}

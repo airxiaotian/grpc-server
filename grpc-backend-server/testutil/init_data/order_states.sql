@@ -1,0 +1,7 @@
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (1, 10, '見積受領', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (2, 20, '購買資料作成', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (3, 30, 'INFOGRID投入', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (4, 40, '決裁完了', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (5, 50, '検収処理待ち', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (6, 60, '検収完了', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);
+INSERT INTO `order_states` (`id`, `type_value`, `name`, `remarks`, `created_at`, `updated_at`, `deleted_at`) VALUES (7, 70, '発注取り下げ', NULL, '2020-09-07 05:05:13', '2020-09-07 05:05:13', NULL);

@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+.git/
+.dist/
+proto/
+node_modules/
+coverage/
+
+.gitignore
+*.iml
+*.proto
+*.sh
+*.md

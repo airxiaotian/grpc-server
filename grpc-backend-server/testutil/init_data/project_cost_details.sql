@@ -1,0 +1,3 @@
+INSERT INTO project_cost_details(`orders_id`,`order_details_id`,`acceptance_details_id`,`stocking_cost`,`cost_entry_yymm`,`projects_id`,`cost_types_id`) VALUES(123,123,123,10,'202012',123,123);
+INSERT INTO project_cost_details(`orders_id`,`order_details_id`,`acceptance_details_id`,`cost_entry_yymm`,`projects_id`,`cost_types_id`) VALUES(1234,1234,1234,'202012',1234,1234);
+INSERT INTO project_cost_details(`orders_id`,`order_details_id`,`acceptance_details_id`,`cost_entry_yymm`,`projects_id`,`cost_types_id`) VALUES(12345,12345,12345,'202012',12345,12345);
